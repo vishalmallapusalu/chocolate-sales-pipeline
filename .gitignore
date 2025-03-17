@@ -1,0 +1,14 @@
+# Ignore Terraform state files and directories
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Python cache (if any in lambda code)
+__pycache__/
+
+# Optional: Uncomment if you DON'T want to upload zips
+# lambda/*.zip
